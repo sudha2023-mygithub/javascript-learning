@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+  </head>
+  <body>
+    <script>
+      /* const product = {
+        name:'sudharshan',
+        age: 22,
+      };
+      console.log(product);
+      console.log(product.name);
+      console.log(product.age);
+      product.name = 'sample';
+      console.log(product.name);
+      product.value = 'uncountable';
+      console.log(product);
+      delete product.value;
+      console.log(product);
+      console.log(typeof product); */
+      /*
+      const product2 = {
+        name: 'shirt',
+        'delivery-time':'1 day',
+        rating:{
+          stars:4.5,
+          count:87
+        },
+        fun: function function1() {
+          console.log('function inside object');
+        }
+      };
+      console.log(product2);
+      console.log(product2.name);
+      console.log(product2['name']);
+      console.log(product2['delivery-time']);
+      console.log(product2);
+      console.log(product2.rating.count);
+      product2.fun();
+      console.log(typeof console);
+      console.log(typeof console.log);
+      console.log(typeof Math);
+      console.log(typeof Math.random);
+
+      console.log(typeof(JSON.stringify(product2)));
+      const jsonString = JSON.stringify(product2);
+      console.log(JSON.parse(jsonString));
+      */
+      console.log('hello'.length);
+      console.log('hello'.toUpperCase());
+      const object1 = {
+        message: 'hello'
+      };
+      const object2 = object1;
+      object1.message = 'Good job!';
+      console.log(object1);
+      console.log(object2);
+      object1.name = 'sudharshan';
+      console.log(object1);
+      console.log(object2);
+
+      const object3 = {
+        message : 'Good job!'
+      };
+      console.log(object3 === object1); // False because objects are references
+      console.log(object2 === object1);
+    </script>
+  </body>
+</html>

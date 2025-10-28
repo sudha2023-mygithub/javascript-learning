@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Functions</title>
+  </head>
+  <body>
+
+  <script>
+    function xyz() {
+      console.log("Hello World from functions");
+      console.log(2+2);
+    }
+    xyz();
+    function calculateTax(parameter1, taxPercent = 0.1) {
+      console.log(taxPercent);
+      console.log(parameter1 * taxPercent);
+    }
+    calculateTax(2000, 0.2);
+    calculateTax(5000);
+  </script>
+  </body>
+</html>

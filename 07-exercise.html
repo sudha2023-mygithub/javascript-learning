@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+    <script>
+      // function greet(name){
+      //   if (!name){
+      //     console.log('Hi there');
+      //   }
+      //   else{
+      //     console.log(`Hello! ${name}`)
+      //   }
+      // }
+      // greet('sudharshan');
+      // greet('harsha');
+      // greet('venu');
+      // greet();
+
+      // function convertToFahrenheit(celcius){
+      //   Fahrenheit = (celcius*9/5)+32
+      //   console.log(Fahrenheit);
+      // }
+      // convertToFahrenheit(25);
+
+      // function convertToCelcius(Fahrenheit){
+      //   celcius = (Fahrenheit-32)*5/9
+      //   console.log(celcius);
+      // }
+      // convertToCelcius(77);
+
+      function convertTemperatures(degrees, unit) {
+        if (unit === 'C') {
+          Fahrenheit = (degrees*9/5)+32
+          console.log(Fahrenheit);
+        }
+        if (unit === 'F') {
+          celcius = (degrees-32)*5/9
+          console.log(celcius);
+        }
+      }
+      convertTemperatures(25,'C');
+      convertTemperatures(77,'F');
+    </script>
+  </body>
+</html>

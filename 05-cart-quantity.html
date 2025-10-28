@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cary Quantity</title>
+  </head>
+  <body>
+    <p>Cart Quantity</p>
+    <button onclick="
+      console.log('Cart Qunatity : ' + cartQunatity);
+    " >Show Quantity
+    </button>
+    <button onclick="
+      cartQunatity ++;
+      console.log('Cart Qunatity : ' + cartQunatity);
+    ">Add to Cart</button>
+    <button onclick="
+      cartQunatity += 2;
+      console.log('Cart Qunatity : ' + cartQunatity);
+    " >+2</button>
+    <button onclick="
+      cartQunatity += 3;
+      console.log('Cart Qunatity : ' + cartQunatity);
+    " >+3</button>
+    <button onclick="
+      console.log('cart was reset');
+      cartQunatity = 0;
+      console.log('Cart Qunatity : ' + cartQunatity);
+    " >Reset Cart</button>
+    <script>
+      let cartQunatity = 0;
+      console.log(`my name is : ${'sudharshan'}`);
+    </script>
+  </body>
+</html>

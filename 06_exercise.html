@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Head and tails</title>
+  </head>
+  <body>
+    <p>Heads and tails</p>
+    <button onclick="
+    const randomNumber = Math.random();
+    let computerMove = '';
+    if (randomNumber <= 0.5) {
+      computerMove = 'Heads';
+    }
+    else if (randomNumber > 0.5) {
+      computerMove = 'Tails';
+    }
+    if (computerMove === 'Heads') {
+      alert('you choose heads.compuer move is head so you won');
+    }
+    else {
+      alert('you choose heads. computer move is tails. so you lost');
+    }
+    " >Heads</button>
+    
+    <button onclick="
+    const randomNumber = Math.random();
+    let computerMove = '';
+    if (randomNumber <= 0.5) {
+      computerMove = 'Heads';
+    }
+    else if (randomNumber > 0.5) {
+      computerMove = 'Tails';
+    }
+    if (computerMove === 'Heads') {
+      alert('you choose Tails.compuer move is head so you lost');
+    }
+    else {
+      alert('you choose tails. computer move is tails. so you won');
+    }
+    " >Tails</button>
+  </body>
+</html>
