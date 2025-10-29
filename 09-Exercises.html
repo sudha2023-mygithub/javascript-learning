@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>09-Exercises</title>
+  </head>
+  <body>
+    <!-- <button onclick="
+      functionOnclick('heads');
+    ">heads</button>
+
+    <button onclick="
+      functionOnclick('tails');
+    ">tails</button>
+
+    <p class="msgElement"></p> -->
+
+    <!-- <input type="text" class="inputElement" placeholder="Enter your name" onkeydown="
+      submitBtnOnkeydown(event);
+    ">
+    
+    <button onclick="
+      submitBtnClicked();
+    ">Submit</button>
+    <p class="resultMsg"></p> -->
+    <input class="inputElement" oninput="
+      onInput(event);
+    ">
+    <p class="js-result"></p>
+
+    <script>
+      /*
+      function functionOnclick(message) {
+          document.querySelector('.msgElement').innerHTML = `You chose : ${message}`;
+        }
+      */
+     /*
+      function submitBtnOnkeydown(event){
+        if(event.key === 'Enter'){
+          submitBtnClicked();
+        }
+      }
+      function submitBtnClicked(){
+            const name = document.querySelector('.inputElement').value;
+            document.querySelector('.resultMsg').innerHTML = `Your name is : ${name}`;
+      }
+      */
+      function onInput(event){
+        inputValue = document.querySelector('.inputElement').value;
+        document.querySelector('.js-result').innerHTML = inputValue;
+      }
+
+    </script>
+  </body>
+</html>
