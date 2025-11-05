@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays and Loops</title>
+  </head>
+  <body>
+
+    <script>
+      /*
+      function searchForSearch(arr,word) {
+        let result = -1
+        for(let i=0;i<arr.length;i++){
+          if(arr[i] === word){
+            result = i;
+            break;
+          }
+        }
+        return result;
+      }
+      const arr1 = ['hello','world','Search','good','Search'];
+      const arr2 = ['not','found'];
+      console.log(searchForSearch(arr1,"Search"));
+      console.log(searchForSearch(arr2,"not"));
+      */
+      /*
+      function removeEgg(foods){
+        let result = [];
+        let eggsRemoved = 0;
+        let reversedFood = foods.reverse();
+        for(let i=0;i<reversedFood.length;i++){
+          if(reversedFood[i] === 'egg' && eggsRemoved<2){
+            eggsRemoved ++;
+            continue;
+          }
+          else {
+            result.push(foods[i]);
+          }
+        }
+        console.log(result.reverse());
+      }
+      removeEgg(['egg','apple','egg','egg','ham']);
+      */
+      function fizzbuzz() {
+        for(let i=1;i<=30;i++){
+          if(i%3 == 0 && i%5 == 0){
+            console.log('FizzBuzz');
+          }
+          else if(i%3 == 0){
+            console.log('Fizz');
+          }
+          else if(i%5 == 0){
+            console.log('Buzz');
+          }
+          else{
+            console.log(i);
+          }
+        }
+      }
+      fizzbuzz();
+    </script>
+  </body>
+</html>

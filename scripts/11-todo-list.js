@@ -1,7 +1,8 @@
 const todoList = [{
   name:'make dinner',
   dueDate:'2022-12-22'
-},{name:'wash dishes',
+},{
+  name:'wash dishes',
   dueDate:'2022-12-22'
 }];
 
@@ -41,4 +42,8 @@ const dueDate = dateInputElement.value;
   inputElement.value = "";
 
   renderTodoList();
+  saveToStorage();
+}
+function saveToStorage(){
+  localStorage.setItem('todoList',JSON.stringify(todoList));
 }
