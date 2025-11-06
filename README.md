@@ -88,3 +88,19 @@ To track my JavaScript learning progress and maintain my daily GitHub streak ðŸš
 2. .classList
 3. Finished Rock Paper Scissors
 4. Organize JavaScript and Css code into separate files
+
+**Lesson 11**
+1. Arrays = list of values
+2. Lopps(while loop, fro loop)
+3. Accumulator Pattern
+4. Created a Todo List Project
+5. Arrays are references, destructuring
+6. More features of loops: break, continue,loops inside a function
+
+**Lesson 12**
+1. Functions are values
+2. setTimeout(), setInterval()
+3. .forEach()
+4. Arrow functions, .addEventListener()
+5. .filter(), .map()
+6. Closure
